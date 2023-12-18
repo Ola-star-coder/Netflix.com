@@ -2,10 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins, sans-serif;
 }
 
 body {
+    background: var(--background);
+}
+
+:root {
+    --main-color-text: #fff;
+    --main-color-text-2: #000;
+    --background: #000;
+    --feature: #820300;
+}
+
+#hero {
     background-image: url(images/imtge.jpg);
     background-position: center;
     background-size: cover;
+    color: var(--main-color-text);
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 15rem;
+}
+
+.hero-content h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.hero-content .comment {
+    margin: 10px 0px;
+    font-size: 20px;
 }
